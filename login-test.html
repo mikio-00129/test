@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Firebase Googleログインテスト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Googleログイン テスト</h1>
+
+  <!-- ログインエリア -->
+  <div id="auth-section">
+    <button id="login-btn">Googleでログイン</button>
+  </div>
+
+  <!-- ログイン後に表示するエリア -->
+  <div id="user-info" style="display: none;">
+    <p>ようこそ、<span id="user-name"></span> さん！</p>
+    <button id="logout-btn">ログアウト</button>
+  </div>
+
+  <!-- JSファイルの読み込み（type="module" を必ず指定！） -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
